@@ -32,10 +32,10 @@ h2 b{
 }
 
 
-.grid-two{
+/* .grid-two{
     display: grid; 
     grid-template-columns: 60% 40%;
-}
+} */
 
 .title{
     font-size: 5rem;
@@ -145,11 +145,50 @@ h2 b{
 }
 
 @media (max-width : 900px) {
+    .title{
+        font-size: 2rem;
+        @apply text-center md:pt-12 my-24;
+    }
+
+    
+    .grid-two{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
     .grid-four{
         display: grid;
         grid-gap: 1rem;
         grid-template-columns: 1fr 1fr;
     }
+
+    .maquina-escribir{
+        font-size: 1.5rem;
+        @apply text-center mt-44 ml-2  text-red-600;
+        background: black;
+        position: relative;
+        font-weight: 400;
+    }
+    .maquina-escribir::after{
+        margin-top:3px;
+       
+        content: "";
+        border-left: 4px solid white;
+        background: black;
+        right: 0;
+        height: 100%;
+        position: absolute;
+        animation: maquinaescribir 4s  alternate steps(20);
+    }
+    @keyframes maquinaescribir {
+        from {
+            width: 100%;
+        }
+        to{ 
+            width: 0;
+        }
+    }
+    
     
 }
 

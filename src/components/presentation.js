@@ -38,7 +38,7 @@ const Presentation = () => {
     return (
         <div className='bg-black1 grid-two'>
             <div className='py-2 ml-12'>
-                <div className='transition1 py-12 pb font-bold '>
+                <div className='transition1 py-6 md:py-12 pb font-bold '>
                     <Link className='title text-white'
                         to='about-me'
                          onMouseOver={helloTransform}
@@ -50,7 +50,7 @@ const Presentation = () => {
                 </div>
                 
                 <br/>
-                <div className='transition1 py-12  font-bold'>
+                <div className='transition1 py-6 md:py-12  font-bold'>
                     <Link className='title text-red-600'
                         to='work'
                          onMouseOver={iAmTransform}
@@ -62,7 +62,7 @@ const Presentation = () => {
                 </div>
                 
                 <br/>
-                <div className='transition1 py-10 font-bold'>
+                <div className='transition1 py-6 md:py-10 font-bold'>
                     <Link className='title text-red-600'
                         to='contact'
                          onMouseOver={nameTransform}

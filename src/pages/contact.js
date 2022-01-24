@@ -62,13 +62,13 @@ const Contact = () => {
 
         setEmail('Copied to clipborad')
         setCopy(!copy)
-        console.log(copy);
+        
     }
     const copiedWhats = ()=>{
 
         setWhatsaap('Copied to clipborad')
         setCopy(!copy)
-        console.log(copy);
+        
     }
 
     return (
@@ -94,7 +94,7 @@ const Contact = () => {
 
                         <p className='pt-2 border-double border-4 boder-red-600 text-red-600 w-32 h-32 rounded-full text-center text-8xl'>H</p><br/>
                     </div>
-                        <p className='text-6xl text-red-600 text-center doble-font'> Heribeto lara</p>
+                        <p className='text-6xl text-red-600 text-center doble-font'> Heriberto lara</p>
                 </div>
             </div>
             <CopyToClipboard text={socialData.email}>
@@ -123,26 +123,7 @@ const Contact = () => {
                     </button>
                 </div>     
             </CopyToClipboard>
-            {/* <Link to={socialData.linkedIn}>
-                <div className="transition1 flex justify-center my-12">
-                    <button className='text-white text-xl text-red-600 text-center'
-                       
-                       
-                        >
-                          linkedIn
-                    </button>
-                </div>     
-            </Link>
-            <Link to={socialData.gitHub}>
-                <div className="transition1 flex justify-center my-12">
-                    <button className='text-white text-xl text-red-600 text-center'
-                       
-                       
-                        >
-                          GitHub
-                    </button>
-                </div>     
-            </Link> */}
+            
        </Layout>
     )
 }
