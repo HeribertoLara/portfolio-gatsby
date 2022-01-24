@@ -25,7 +25,7 @@ const Work = () => {
         
          {
             projects.map((item,i)=>(
-                <div key={i} className=' border-2 border-red-900 my-10 mx-44  p-4 transition1 rounded'>
+                <div key={i} className=' border-2 border-red-900 my-10 mx-4 md:mx-44  p-4 transition1 rounded'>
  
                     <h3 className='text-white text-5xl '>
                         {item.name}

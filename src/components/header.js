@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         <p className='text-3xl text-red-600 text-center doble-font my-4 ml-4'>{siteTitle}</p>
       </div>
 
-      <div className="float-left">
+      <div className="md:float-left">
 
 
         <ul className='menu '>

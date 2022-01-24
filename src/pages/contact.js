@@ -76,11 +76,11 @@ const Contact = () => {
 
             <div className='flex justify-center mt-24'>
                
-                <h3 className="text-8xl text-white font-bold ">
+                <h3 className=" text-4xl  m md:text-8xl text-white font-bold ">
                     Let's make<br/> something awesome
                 </h3>
             </div>
-            <div className='grid-two mt-24'>
+            <div className='grid-two mt-12 md:mt-24'>
                 <div className=' '>
                     
                     <h2 className=' text-white text-center text-5xl my-16'> Contact</h2>

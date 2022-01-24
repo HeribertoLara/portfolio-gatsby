@@ -84,7 +84,7 @@ h2 b{
     color: white;
 
     border-bottom: white;
-    @aaply;
+   
 }
 .list-element:hover{
     @apply text-red-600;
@@ -159,7 +159,7 @@ h2 b{
     .grid-four{
         display: grid;
         grid-gap: 1rem;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 40vw 40vw;
     }
 
     .maquina-escribir{
