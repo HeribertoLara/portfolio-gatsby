@@ -11,6 +11,8 @@
     background-color:black;
 }
 
+
+
 .doble-font{
     font-family: 'Tourney', cursive;
 
@@ -66,7 +68,7 @@ h2 b{
     right: 0;
     height: 100%;
     position: absolute;
-    animation: maquinaescribir 4s  alternate steps(20);
+    animation: maquinaescribir 2s  alternate steps(20);
 }
 @keyframes maquinaescribir {
     from {

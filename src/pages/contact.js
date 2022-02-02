@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 
 import CopyToClipboard from 'react-copy-to-clipboard'
 
+import Fade from 'react-reveal/Fade'
+
 // import { Link } from 'gatsby'
 
 
@@ -75,10 +77,12 @@ const Contact = () => {
        <Layout>
 
             <div className='flex justify-center mt-24'>
-               
+
+               <Fade top>
                 <h3 className=" text-4xl  m md:text-8xl text-white font-bold ">
                     Let's make<br/> something awesome
                 </h3>
+               </Fade>
             </div>
             <div className='grid-two mt-12 md:mt-24'>
                 <div className=' '>

@@ -1,17 +1,26 @@
 import React from 'react'
 
+import Slide from 'react-reveal/Slide';
+
 
 import Images from './images'
 
 const Me = () => {
     return (
         <div className='bg-black text-white'>
-            <div className='border border-white mt-44 mx-4 md:mx-44 rounded'>
-                <p className='py-24 md:px-44 text-center'>
-                    Hello My name is Jesus Heriberto Lara Juarez and I am a full Stack web developer.
+            <div className='grid-two'>
+            <Slide left>
+            <Images fileName="DSC_1968.png" clase="cap-me"/>
+            </Slide>
+            <div className='border-4 border-double border-rose-900  mt-44 mx-4 md:mx-24 rounded'>
+                <p className='py-36 md:px-10 text-center text-xl break-normal'>
+                <Slide right cascade className="breaknormal"> 
+                    Hello I am Jesus Heriberto Lara Juárez and I am a full Stack web developer.
                     In 2020 I studied a full web development bootcamp at Academlo where I learned various front-end and back-end technologies
+                </Slide>
                 </p>
                 
+            </div>
             </div>
             <div className=' mt-24'>
                 <h2 className='uppercase text-center text-red-700 md:text-4xl'> Front-end technologies </h2>

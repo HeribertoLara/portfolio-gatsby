@@ -1,5 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
+import Flip from "react-reveal/Flip"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
@@ -11,7 +12,7 @@ const Header = ({ siteTitle }) => (
         {/* </div> */}
         <p className='text-3xl text-red-600 text-center doble-font my-4 ml-4'>{siteTitle}</p>
       </div>
-
+    <Flip top>
       <div className="md:float-left">
 
 
@@ -30,6 +31,7 @@ const Header = ({ siteTitle }) => (
           </li>
         </ul>
       </div>
+      </Flip>
       {/* <h1> */}
         {/* <Link
           to="/"
