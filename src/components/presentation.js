@@ -7,7 +7,7 @@ import "./index.css"
 const Presentation = () => {
   const [hello, setHello] = useState("Hello.")
 
-  const [iAm, setIAm] = useState("I am")
+  const [iAm, setIAm] = useState("My name is")
   const [name, setName] = useState("Heriberto")
 
   const nameTransform = () => {
